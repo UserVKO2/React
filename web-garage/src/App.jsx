@@ -9,9 +9,11 @@ import './App.css'
 
 
 function App() {
+  let name = ['Medok', 2, '', 140, 200, 'Albina'];
   return (
     <>
       <h1 className='text-6xl'>App component</h1>
+      <h1>{ name + <br/> }</h1>
       < Home />
       < Abote />
       < Header />

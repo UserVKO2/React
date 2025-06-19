@@ -1,7 +1,7 @@
-
+import './Footer.css';
 export default function Footer() {
   return (
-    <div>
+    <div className="footer">
       <h1>Footer</h1>
       <p>Описание компонента footer</p>
     </div>
