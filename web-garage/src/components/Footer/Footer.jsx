@@ -1,9 +1,10 @@
 import './Footer.css';
+
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <h1>Footer</h1>
-      <p>Описание компонента footer</p>
-    </div>
+      <p>© 2025 SaleCARS.kz. Все права защищены.</p>
+    </footer>
   );
 }
